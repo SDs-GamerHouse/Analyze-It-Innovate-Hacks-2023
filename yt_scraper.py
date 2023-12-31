@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 # Importing required variables from python files
-from api_key import MY_API_KEY # You can get your own YouTube API key from the Google Developer Console
+from api_key import MY_API_KEY # You can get your own YouTube API key from the Google Developer Console website
 from model import analyze_sentiment
 
 def get_youtube_data(video_id):
